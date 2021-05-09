@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
+        integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+        .has-bg-img {
+            position: relative;
+        }
+
+        .has-bg-img:after {
+            content: '';
+            background: url('../design/img/4.png') no-repeat center center;
+            position: absolute;
+            top: 0px;
+            left: 0px;
+            width: 100%;
+            height: 100%;
+            z-index: -1;
+            opacity: 0.3;
+            /* Here is your opacity */
+            background-size: cover
+        }
+    </style>
+    <title>Document</title>
+</head>
+
+<body class="has-bg-img">
+
+    <div class="container" >
+        <br>
+        <br>
+        <br>
+        <form style="color: black; font-family: sans-serif; opacity: 0.7;">
+
+
+            <div class="form-group" >
+
+                <label for="exampleFormControlInput3" style="font-size: 1.4rem;">Required Services *
+                </label>
+                <br>
+
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" name="RadioOptions1" id="inlineRadioService1"
+                        value="option1" style="width: 1.1rem;height: 1.1rem;">
+                    <label class="form-check-label" style="font-size: 1.3rem;">Digital Advertising (FB Ads, Google Ads,
+                        LinkedIn Ads)</label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" name="RadioOptions2" id="inlineRadioService2"
+                        value="option1" style="width: 1.1rem;height: 1.1rem;">
+                    <label class="form-check-label" style="font-size: 1.3rem;"> Social Media Management
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" name="RadioOptions3" id="inlineRadioService3"
+                        value="option1" style="width: 1.1rem;height: 1.1rem;">
+                    <label class="form-check-label" style="font-size: 1.3rem;">Website / Product Development
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" name="RadioOptions4" id="inlineRadioService4"
+                        value="option1" style="width: 1.1rem;height: 1.1rem;">
+                    <label class="form-check-label" style="font-size: 1.3rem;">App Development
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" name="RadioOptions5" id="inlineRadioService5"
+                        value="option1" style="width: 1.1rem;height: 1.1rem;">
+                    <label class="form-check-label" style="font-size: 1.3rem;">Reviews and ratings (Google, App,
+                        Business, Food, Amazon)
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" name="RadioOptions6" id="inlineRadioService6"
+                        value="option1" style="width: 1.1rem;height: 1.1rem;">
+                    <label class="form-check-label" style="font-size: 1.3rem;"> Outdoor Advertising (banners,
+                        billboards, OOH, Railway and Airports, Malls etc.)
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" name="RadioOptions7" id="inlineRadioService7"
+                        value="option1" style="width: 1.1rem;height: 1.1rem;">
+                    <label class="form-check-label" style="font-size: 1.3rem;"> Content and Graphics
+
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" name="RadioOptions8" id="inlineRadioService8"
+                        value="option1" style="width: 1.1rem;height: 1.1rem;">
+                    <label class="form-check-label" style="font-size: 1.3rem;"> Others :
+                        <input class="form-control" type="text" placeholder="Enter Input">
+                    </label>
+                </div>
+
+            </div>
+            <br>
+            <div class="form-group">
+
+                <label for="exampleFormControlInput4" style="font-size: 1.4rem;">Monthly Budjet *
+                </label>
+                <br>
+
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="RadioOption" id="inlineRadio11" value="option11"
+                        style="width: 1.1rem;height: 1.1rem;">
+                    <label class="form-check-label" style="font-size: 1.3rem;">₹5000 - ₹15,000
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="RadioOption" id="inlineRadio12" value="option12"
+                        style="width: 1.1rem;height: 1.1rem;">
+                    <label class="form-check-label" style="font-size: 1.3rem;">₹15,000 - ₹25,000</label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="RadioOption" id="inlineRadio13" value="option13"
+                        style="width: 1.1rem;height: 1.1rem;">
+                    <label class="form-check-label" style="font-size: 1.3rem;">₹25,000 - ₹50,000
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="RadioOption" id="inlineRadio14" value="option14"
+                        style="width: 1.1rem;height: 1.1rem;">
+                    <label class="form-check-label" style="font-size: 1.3rem;">₹50,000 to ₹100,000</label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="RadioOption" id="inlineRadio15" value="option15"
+                        style="width: 1.1rem;height: 1.1rem;">
+                    <label class="form-check-label" style="font-size: 1.3rem;">₹100,000 and above
+
+                    </label>
+                </div>
+
+            </div>
+
+            <br>
+
+            <div class="form-group">
+                <label for="exampleFormControlInput5" style="font-size: 1.4rem;">Website (if any) </label>
+                <input class="form-control form-control-lg" id="exampleFormControlInput5"
+                    placeholder="Enter Your Answer">
+            </div>
+            <br>
+            <div class="form-group">
+                <label for="exampleFormControlInput6" style="font-size: 1.4rem;">Please brief us on your requirements.
+                    This will help us to connect you with the right person and answer all your question in one go
+                </label>
+                <input class="form-control form-control-lg" id="exampleFormControlInput6"
+                    placeholder="Enter Your Answer">
+            </div>
+            <br>
+            <div class="form-group">
+                <label for="exampleFormControlFile1" style="font-size: 1.4rem;"> Share Document </label>
+                <br>
+                <form>
+                    <div class="form-group">
+
+                        <input type="file" class="form-control-file" id="exampleFormControlFile1">
+                    </div>
+                </form>
+            </div>
+            <br>
+            <div class="form-group">
+                <label for="exampleFormControlInput7" style="font-size: 1.4rem;">Have you utilized the services from any
+                    other agency? *</label>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="RadioOption" id="inlineRadio111"
+                        value="option111" style="width: 1.1rem;height: 1.1rem;">
+                    <label class="form-check-label" style="font-size: 1.3rem;">True
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="RadioOption" id="inlineRadio112"
+                        value="option112" style="width: 1.1rem;height: 1.1rem;">
+                    <label class="form-check-label" style="font-size: 1.3rem;">False
+                    </label>
+                </div>
+            </div>
+
+            <br>
+            <br>
+            <div class="row">
+                <button type="button" class="btn btn-primary btn-lg">Back</button>
+                <button type="button" class="btn btn-primary btn-lg" style="margin-left:20px ;">Next</button>
+
+            </div>
+
+        </form>
+
+    </div>
+
+
+
+</body>
+
+</html>
